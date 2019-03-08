@@ -11,6 +11,7 @@
 		D34C515F2232FE7A001A7F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34C515D2232FE7A001A7F55 /* Main.storyboard */; };
 		D34C51612232FE83001A7F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34C51602232FE83001A7F55 /* Assets.xcassets */; };
 		D34C51642232FE83001A7F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34C51622232FE83001A7F55 /* LaunchScreen.storyboard */; };
+		D34C516E22330359001A7F55 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34C516D22330359001A7F55 /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D34C51602232FE83001A7F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D34C51632232FE83001A7F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D34C51652232FE83001A7F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34C516D22330359001A7F55 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				D34C51592232FE7A001A7F55 /* AppDelegate.swift */,
-				D34C515D2232FE7A001A7F55 /* Main.storyboard */,
 				D34C51602232FE83001A7F55 /* Assets.xcassets */,
-				D34C51622232FE83001A7F55 /* LaunchScreen.storyboard */,
+				D34C516D22330359001A7F55 /* ColorsViewController.swift */,
 				D34C51652232FE83001A7F55 /* Info.plist */,
+				D34C51622232FE83001A7F55 /* LaunchScreen.storyboard */,
+				D34C515D2232FE7A001A7F55 /* Main.storyboard */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34C516E22330359001A7F55 /* ColorsViewController.swift in Sources */,
 				D34C515A2232FE7A001A7F55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
